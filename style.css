@@ -76,18 +76,19 @@ nav a:hover {
     width: 50%;
 }
 
-main {
+/* Universal text layout for all pages */
+body > *:not(header) {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    text-align: center;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-main p {
+body p {
     max-width: 700px;
     margin: 0 auto 1.2em auto;
     text-align: left;
 }
+
 
 /* Mobile adjustments */
 @media (max-width: 700px) {
