@@ -28,12 +28,6 @@ nav a:hover {
     color: white;
 }
 
-/* Centre all page content except the header */
-body > *:not(header) {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
 
 /* Centre the section heading inside the intro block */
 .intro h2 {
@@ -104,9 +98,4 @@ body > *:not(header) {
     .details {
         width: 100%;
     }
-
-h2 {
-    background: red;
-}
-
 }
