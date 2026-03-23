@@ -29,8 +29,8 @@ nav a:hover {
 }
 
 
-/* Centre the section heading inside the intro block */
-.intro h2 {
+/* Centre the section heading inside text blocks */
+.page-text h2 {
     text-align: center;
     margin-top: 0;
 }
@@ -76,18 +76,18 @@ nav a:hover {
     width: 50%;
 }
 
-.intro {
+/* Shared layout for all text-based pages */
+.page-text {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-.intro p {
+.page-text p {
     max-width: 700px;
     margin: 0 auto 1.2em auto;
     text-align: left;
 }
-
 
 /* Mobile adjustments */
 @media (max-width: 700px) {
