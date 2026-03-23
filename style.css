@@ -83,3 +83,8 @@ main, section, header, footer {
         font-size: 17px;
     }
 }
+
+.intro {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
