@@ -104,4 +104,9 @@ body > *:not(header) {
     .details {
         width: 100%;
     }
+
+h2 {
+    background: red;
+}
+
 }
