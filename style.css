@@ -13,7 +13,7 @@ body {
 header {
     background: #111;
     color: white;
-    padding: 15px 20px; /* tightened top/bottom */
+    padding: 15px 20px;
     text-align: center;
 }
 
@@ -28,25 +28,27 @@ nav a:hover {
     color: white;
 }
 
+/* Centre all page content except the header */
 body > *:not(header) {
     max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
+/* Centre the section heading inside the intro block */
+.intro h2 {
+    text-align: center;
+    margin-top: 0;
+}
 
 /* Gallery grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    padding: 10px 40px 40px 40px; 
-    /* top = 10px (small, clean)
-       sides = 40px
-       bottom = 40px */
+    padding: 10px 40px 40px 40px;
 }
 
-/* Image styling */
 .grid img {
     width: 100%;
     height: auto;
@@ -63,7 +65,7 @@ body > *:not(header) {
     transform: scale(1.03);
 }
 
-/* About page layout */
+/* Project layout (if used on other pages) */
 .project {
     max-width: 900px;
     margin: 40px auto;
