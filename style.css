@@ -38,12 +38,16 @@ nav a:hover {
 /* Gallery grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, max-content));
     gap: 20px;
-    padding: 10px 40px 40px 40px;
+    padding: 0;
     justify-items: center;
-    max-width: 900px;   /* <— key line */
-    margin: 0 auto;     /* <— centers the whole grid */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.grid {
+    padding: 10px 40px 40px 40px;
 }
 
 .grid img {
